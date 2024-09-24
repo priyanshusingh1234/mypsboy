@@ -19,7 +19,7 @@ app.use(express.json({ extended: true }));
 app.use(express.urlencoded({ extended: true }));
 
 // CORS setup: Allow specific frontend domain in production
-app.use(cors({ credentials: true, origin: "https://bejewelled-entremet-0d8466.netlify.app/" }));
+app.use(cors({ credentials: true, origin: "https://bejewelled-entremet-0d8466.netlify.app" }));
 
 app.use(upload());
 
